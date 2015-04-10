@@ -61,7 +61,7 @@ ViscDrag = 0;                                   % 0 - off, 1 - on.
 PlotTimeStepFig = 1;                            % 0 - off, 1 - on.
 PrintFigures = 0;                               % 0 - off, 1 - on.
 PlotVelFig = 0;                                 % 0 - off, 1 - on.
-SaveData = 0;                                   % 0 - off, 1 - on.
+SaveData = 1;                                   % 0 - off, 1 - on.
 BodDrag = 1;                                    % 0 - off, 1 - on.
 rampedStart = 1;                                % 0 - off, 1 - on.
 
