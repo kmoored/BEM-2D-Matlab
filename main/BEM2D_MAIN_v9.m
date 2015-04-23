@@ -84,6 +84,7 @@ for t = delT:delT:endTime
                 calcFreeSwimming
                 updateStoredGeometry
                 newPlotTimeStepFig
+		saveDataFiles
                 break
             end
         end

@@ -3,9 +3,9 @@ if SaveData == 1
             '_A_c',num2str(A_c),...
             '_d_c',num2str(d_c)];
         
-    save(['Scratch/Parameters',savefilename,'.mat'],'-v7.3')
+    save(['scratch/Parameters',savefilename,'.mat'],'-v7.3')
 
-    fid_Data = fopen(['Scratch/Data',savefilename,'.txt'],'w');
-    fid_PanelProp = fopen(['Scratch/PanelProp',savefilename,'.txt'],'w');
-    fid_WakeProp = fopen(['Scratch/WakeProp',savefilename,'.txt'],'w');
+    fid_Data = fopen(['scratch/Data',savefilename,'.txt'],'w');
+    fid_PanelProp = fopen(['scratch/PanelProp',savefilename,'.txt'],'w');
+    fid_WakeProp = fopen(['scratch/WakeProp',savefilename,'.txt'],'w');
 end
